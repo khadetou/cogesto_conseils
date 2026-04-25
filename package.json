@@ -13,6 +13,9 @@
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.8",
+    "@iconify-icons/solar": "^1.2.3",
+    "@iconify-icons/twemoji": "^1.2.8",
+    "@iconify/react": "^6.0.2",
     "@tailwindcss/vite": "^4.2.1",
     "@tanstack/react-devtools": "^0.10.0",
     "@tanstack/react-router": "^1.167.4",
@@ -22,6 +25,7 @@
     "@tanstack/router-plugin": "^1.166.13",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
     "lucide-react": "^1.11.0",
     "nitro": "latest",
     "radix-ui": "^1.4.3",
