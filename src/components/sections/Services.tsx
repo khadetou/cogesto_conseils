@@ -8,22 +8,22 @@ import { SectionHeader } from "@/components/common/SectionHeader"
 
 const services = [
   {
-    title: "Conseil & Accompagnement",
+    title: "Conseil stratégique & accompagnement",
     icon: handHeartIcon,
     text: "Cadrage du projet, choix des partenaires, priorisation des décisions et accompagnement jusqu’à la mise en œuvre.",
   },
   {
-    title: "Financement",
+    title: "Structuration financière & financement",
     icon: walletIcon,
-    text: "Préparation du dossier, lecture des risques, stratégie bancaire et recherche de leviers adaptés au marché sénégalais.",
+    text: "Préparation du dossier, lecture des risques, stratégie bancaire et recherche de leviers adaptés au projet.",
   },
   {
-    title: "Gestion & Fiscalité",
+    title: "Gestion, fiscalité & conformité",
     icon: documentIcon,
     text: "Structuration administrative, conformité, pilotage fiscal et organisation des flux pour sécuriser la croissance.",
   },
   {
-    title: "Stratégie",
+    title: "Organisation, pilotage & développement",
     icon: graphIcon,
     text: "Études d’opportunité, positionnement, feuille de route commerciale et arbitrages pour passer d’une idée à un actif durable.",
   },
@@ -35,7 +35,7 @@ export function Services() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Expertises"
-          title="Un accompagnement complet pour investir, créer et grandir."
+          title="Un accompagnement complet pour structurer, financer et développer."
           description="Cogesto intervient aux moments critiques: comprendre le marché, structurer l’opération, financer le projet, sécuriser la gestion et suivre l’exécution."
         />
         <div

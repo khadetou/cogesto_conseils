@@ -9,7 +9,7 @@ const reasons = [
   {
     title: "Double expertise",
     icon: layersIcon,
-    text: "Une lecture internationale des attentes investisseurs et une compréhension concrète du terrain sénégalais.",
+    text: "Une lecture stratégique et financière des attentes des décideurs, avec une compréhension concrète des marchés accompagnés.",
   },
   {
     title: "Réseau local",
@@ -17,9 +17,9 @@ const reasons = [
     text: "Des relais pour qualifier les partenaires, accélérer les démarches et limiter les angles morts.",
   },
   {
-    title: "Culture diaspora",
+    title: "Programme diaspora",
     icon: homeWifiIcon,
-    text: "Une approche pensée pour les porteurs de projets qui décident à distance et exigent de la transparence.",
+    text: "Une expertise dédiée aux membres de la diaspora qui décident à distance et exigent de la transparence.",
   },
   {
     title: "Conformité",

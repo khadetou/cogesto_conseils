@@ -14,8 +14,9 @@ export function SignatureStatement() {
             Des décisions solides. Pas des promesses.
           </blockquote>
           <p className="mt-7 max-w-xl text-lg leading-8 text-[var(--cogesto-slate)]">
-            Cogesto transforme l'intention d'investir en cadre clair:
-            diagnostic, structuration, conformité et suivi terrain.
+            Cogesto transforme les ambitions de croissance en cadres de décision
+            lisibles: diagnostic, structuration, financement, conformité et
+            pilotage.
           </p>
           <div className="mt-9">
             <CTAButton href="/a-propos">Comprendre notre approche</CTAButton>
@@ -37,8 +38,8 @@ export function SignatureStatement() {
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,35,66,0.06),rgba(7,35,66,0.78))]" />
           <div className="absolute right-8 bottom-8 left-8 border-t border-white/24 pt-6 text-white">
             <p className="text-sm leading-7 text-white/72">
-              Une méthode transnationale pour relier capital, conformité,
-              partenaires et exécution.
+              Une méthode transnationale pour relier stratégie, capital,
+              conformité, partenaires et exécution.
             </p>
           </div>
         </div>

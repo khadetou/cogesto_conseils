@@ -40,23 +40,23 @@ export function Hero() {
             data-hero-kicker
             className="mb-5 w-fit rounded-md border border-[var(--cogesto-green)]/20 bg-white/80 px-3 py-1 text-[var(--cogesto-green)] shadow-none"
           >
-            Conseil transnational Canada · Sénégal · Maroc
+            Conseil stratégique & financier
           </Badge>
           <h1
             data-hero-title
             className="max-w-4xl text-5xl leading-[1.02] font-semibold text-balance text-[var(--cogesto-blue)] sm:text-6xl lg:text-7xl"
           >
-            Le pont entre vous et le Sénégal
+            Structurer, financer et développer vos projets
           </h1>
           <div data-hero-copy className="mt-6 max-w-2xl">
             <p className="text-xl font-semibold text-[var(--cogesto-green)]">
-              Investir au Sénégal en toute sérénité
+              Une approche structurée pour décider et exécuter
             </p>
             <p className="mt-4 text-lg leading-8 text-[var(--cogesto-slate)]">
-              Cogesto Conseils accompagne la diaspora, les entrepreneurs à
-              l’international et les investisseurs étrangers dans la création,
-              le financement, la structuration fiscale et le développement de
-              projets solides au Sénégal.
+              Cogesto Conseils accompagne les entrepreneurs, entreprises,
+              investisseurs, organisations et membres de la diaspora dans la
+              stratégie, la finance, la gestion et le développement de projets
+              solides.
             </p>
           </div>
           <div
@@ -82,7 +82,7 @@ export function Hero() {
                     Mission
                   </p>
                   <p className="mt-3 max-w-sm text-2xl leading-tight font-semibold">
-                    Transformer la distance en confiance opérationnelle.
+                    Transformer l'ambition en cadre de décision solide.
                   </p>
                 </div>
                 <Icon icon={globalIcon} className="size-10" />
@@ -118,7 +118,7 @@ export function Hero() {
                   Sérénité d’exécution
                 </p>
                 <p className="text-sm text-[var(--cogesto-slate)]">
-                  Diagnostic, conformité, financement et suivi local.
+                  Diagnostic, conformité, financement et pilotage.
                 </p>
               </div>
             </div>

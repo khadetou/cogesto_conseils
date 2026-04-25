@@ -18,11 +18,12 @@ export function Footer() {
               />
             </div>
             <p className="mt-5 max-w-md text-sm leading-7 text-white/72">
-              Conseil transnational pour investir, structurer et développer des
-              projets solides entre le Canada, le Sénégal et le Maroc.
+              Cabinet de conseil en stratégie et finance pour structurer,
+              financer, piloter et développer des projets solides entre le
+              Canada, le Sénégal et le Maroc.
             </p>
             <p className="mt-5 text-sm font-semibold text-white">
-              Le pont entre vous et le Sénégal.
+              Stratégie, finance et exécution au service de la croissance.
             </p>
           </div>
 
@@ -48,9 +49,9 @@ export function Footer() {
               Implantations
             </h3>
             <div className="mt-4 grid gap-3 text-sm text-white/76">
-              <p>Canada: stratégie diaspora et financement</p>
-              <p>Sénégal: exécution locale et conformité</p>
-              <p>Maroc: passerelles régionales et croissance</p>
+              <p>Canada: stratégie, finance et relation investisseurs</p>
+              <p>Sénégal: gestion, conformité et exécution locale</p>
+              <p>Maroc: passerelles régionales et développement</p>
             </div>
           </div>
 
@@ -70,7 +71,7 @@ export function Footer() {
 
         <div className="flex flex-col gap-3 text-xs text-white/55 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 COGESTO CONSEILS. Tous droits réservés.</p>
-          <p>Conseil, financement, fiscalité et croissance.</p>
+          <p>Stratégie, finance, gestion et croissance.</p>
         </div>
       </div>
     </footer>

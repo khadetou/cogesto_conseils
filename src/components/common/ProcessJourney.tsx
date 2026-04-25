@@ -32,7 +32,7 @@ export function ProcessJourney() {
               Méthode
             </p>
             <h2 className="mt-5 text-4xl leading-[1.04] font-semibold tracking-[-0.01em] text-balance text-white md:text-6xl">
-              Une trajectoire d'investissement, pas une suite de tâches.
+              Une trajectoire de décision, pas une suite de tâches.
             </h2>
             <p className="mt-7 max-w-2xl text-xl leading-9 text-white/72">
               Chaque étape réduit une incertitude précise: faisabilité,

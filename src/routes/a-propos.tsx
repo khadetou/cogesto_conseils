@@ -14,7 +14,7 @@ export const Route = createFileRoute("/a-propos")({
   head: () => ({
     meta: pageMeta(
       "À propos | COGESTO CONSEILS",
-      "Découvrez Cogesto Conseils, cabinet transnational reliant la diaspora, les investisseurs et le Sénégal."
+      "Découvrez Cogesto Conseils, cabinet de conseil en stratégie et finance actif entre le Canada, le Sénégal et le Maroc."
     ),
   }),
   component: AboutPage,
@@ -25,8 +25,8 @@ function AboutPage() {
     <PageLayout>
       <HeroSection
         eyebrow="À propos"
-        title="Une maison de conseil transnationale, structurée pour la confiance."
-        description="Cogesto Conseils accompagne les décisions complexes qui relient capital, territoire et exécution. Notre mission: rendre l'investissement au Sénégal plus clair, plus sûr et plus pilotable."
+        title="Un cabinet de conseil pour structurer les décisions et soutenir la croissance."
+        description="Cogesto Conseils accompagne les entrepreneurs, entreprises, investisseurs et organisations dans les décisions qui engagent la stratégie, la finance, la gestion et l'exécution."
         image={images.boardroom}
         compact
         stats={[
@@ -38,35 +38,35 @@ function AboutPage() {
 
       <ImageTextSection
         eyebrow="Mission"
-        title="Créer un pont fiable entre les ambitions internationales et le terrain sénégalais."
-        description="Cogesto est né d'une conviction simple: les projets de la diaspora et des investisseurs internationaux méritent un accompagnement sérieux, documenté et ancré localement."
+        title="Accompagner les projets avec rigueur, méthode et responsabilité."
+        description="Notre mission est d'accompagner les entrepreneurs, entreprises, investisseurs et organisations dans la structuration, le financement, la gestion et le développement de leurs projets."
         image={images.handshake}
         points={[
           "Traduire les ambitions en décisions opérationnelles.",
-          "Réduire les risques liés à la distance, aux intermédiaires et aux démarches dispersées.",
-          "Installer un cadre de suivi clair pour les investisseurs et leurs partenaires.",
+          "Structurer les dossiers financiers, administratifs et fiscaux.",
+          "Installer un cadre de pilotage clair pour les dirigeants, investisseurs et partenaires.",
         ]}
       />
 
       <StatsBlock
         stats={[
           {
-            value: "4",
-            label: "domaines",
+            value: "Mission",
+            label: "accompagner",
             detail:
-              "Conseil, financement, fiscalité et stratégie réunis dans une même lecture.",
+              "Structurer, financer, gérer et développer les projets avec une lecture stratégique et financière.",
           },
           {
-            value: "3",
-            label: "implantations",
+            value: "Vision",
+            label: "connecter",
             detail:
-              "Canada, Sénégal et Maroc pour accompagner les projets à plusieurs échelles.",
+              "Devenir un cabinet de référence capable de connecter expertises, marchés et opportunités entre le Canada, le Sénégal, le Maroc et l'Afrique de l'Ouest.",
           },
           {
-            value: "0",
-            label: "improvisation",
+            value: "Valeurs",
+            label: "exécuter",
             detail:
-              "Chaque mission démarre par un diagnostic et un cadre d'exécution.",
+              "Rigueur, proximité, confiance, transparence, impact et sens de l'exécution.",
           },
         ]}
       />
@@ -76,7 +76,7 @@ function AboutPage() {
           <SectionHeader
             eyebrow="Principes"
             title="La rigueur institutionnelle, avec la proximité d'un partenaire terrain."
-            description="Notre valeur vient de l'équilibre entre méthode, réseau local, sens financier et compréhension des réalités diaspora."
+            description="Notre valeur vient de l'équilibre entre méthode, expertise financière, réseau local et compréhension des réalités entrepreneuriales."
             align="center"
           />
           <div className="mt-12">
@@ -88,18 +88,18 @@ function AboutPage() {
       <ImageTextSection
         eyebrow="Positionnement"
         title="Un conseil qui protège la décision autant que l'exécution."
-        description="L'objectif n'est pas seulement de lancer un projet. Il est de le rendre solide: juridiquement lisible, financièrement crédible, fiscalement cohérent et opérationnellement suivi."
+        description="L'objectif n'est pas seulement de lancer un projet. Il est de le rendre solide: stratégiquement cohérent, financièrement crédible, fiscalement lisible et opérationnellement suivi."
         image={images.institution}
         reverse
         points={[
           "Des arbitrages fondés sur des faits, pas sur des promesses.",
-          "Une communication claire entre investisseurs, associés et partenaires locaux.",
+          "Une communication claire entre dirigeants, investisseurs, associés et partenaires.",
           "Un accompagnement qui peut évoluer du cadrage à la croissance.",
         ]}
       />
 
       <CTASection
-        title="Vous avez une ambition au Sénégal ? Commençons par la cadrer."
+        title="Vous avez un projet à structurer ? Commençons par le cadrer."
         secondaryHref="/processus"
         secondaryLabel="Voir le processus"
       />

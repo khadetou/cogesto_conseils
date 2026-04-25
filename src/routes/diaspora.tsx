@@ -13,8 +13,8 @@ import { strengths } from "@/lib/site"
 export const Route = createFileRoute("/diaspora")({
   head: () => ({
     meta: pageMeta(
-      "Diaspora | COGESTO CONSEILS",
-      "Un accompagnement pensé pour la diaspora qui souhaite investir, créer ou développer un projet au Sénégal."
+      "Programme Diaspora & Investissement | COGESTO CONSEILS",
+      "Un programme dédié aux membres de la diaspora sénégalaise qui souhaitent investir, entreprendre ou suivre un projet au Sénégal."
     ),
   }),
   component: DiasporaPage,
@@ -24,9 +24,9 @@ function DiasporaPage() {
   return (
     <PageLayout>
       <HeroSection
-        eyebrow="Diaspora"
-        title="Investir au pays sans avancer dans le flou."
-        description="La distance, les intermédiaires, la conformité et le financement peuvent rendre un projet difficile à piloter. Cogesto apporte une méthode, une présence et une lecture stratégique."
+        eyebrow="Programme Diaspora & Investissement"
+        title="Un accompagnement dédié aux projets de la diaspora sénégalaise."
+        description="Au sein de son offre de conseil, Cogesto a développé une expertise spécifique pour les membres de la diaspora qui souhaitent investir, entreprendre ou suivre un projet au Sénégal avec un cadre professionnel."
         image={images.dakar}
         compact
         stats={[
@@ -39,7 +39,7 @@ function DiasporaPage() {
       <ImageTextSection
         eyebrow="Problème réel"
         title="La distance crée des angles morts. Cogesto les transforme en points de contrôle."
-        description="La diaspora porte souvent une ambition forte, mais doit composer avec des informations partielles, des délais, des proches impliqués et des démarches locales complexes."
+        description="Les investisseurs de la diaspora portent souvent une ambition forte, mais doivent composer avec des informations partielles, des délais, des proches impliqués et des démarches locales complexes."
         image={images.collaboration}
         points={[
           "Vérifier l'opportunité avant d'engager des fonds importants.",
@@ -76,7 +76,7 @@ function DiasporaPage() {
           <SectionHeader
             eyebrow="Ce que nous sécurisons"
             title="Un accompagnement qui parle autant à l'investisseur qu'au terrain."
-            description="Cogesto structure la relation entre votre vision, vos ressources et les réalités administratives, fiscales et opérationnelles au Sénégal."
+            description="Cogesto structure la relation entre votre vision, vos ressources, vos partenaires et les réalités administratives, fiscales et opérationnelles du terrain."
             align="center"
           />
           <div className="mt-12">
@@ -88,7 +88,7 @@ function DiasporaPage() {
       <ImageTextSection
         eyebrow="Solution"
         title="Un relais professionnel pour protéger votre confiance."
-        description="Nous aidons les porteurs de projets à passer d'une intention familiale ou entrepreneuriale à un projet documenté, finançable et pilotable."
+        description="Nous aidons les porteurs de projets à passer d'une intention familiale, entrepreneuriale ou patrimoniale à un projet documenté, finançable et pilotable."
         image={images.handshake}
         reverse
         points={[
@@ -99,7 +99,7 @@ function DiasporaPage() {
       />
 
       <CTASection
-        title="Votre projet mérite mieux qu'une décision à l'aveugle."
+        title="Votre projet au Sénégal mérite un cadre clair."
         description="Parlez à Cogesto pour poser un premier diagnostic sérieux."
       />
     </PageLayout>

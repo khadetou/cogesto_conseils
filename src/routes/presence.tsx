@@ -23,7 +23,7 @@ export const Route = createFileRoute("/presence")({
   head: () => ({
     meta: pageMeta(
       "Présence | COGESTO CONSEILS",
-      "Cogesto Conseils relie le Canada, le Sénégal et le Maroc pour accompagner les investissements transnationaux."
+      "Cogesto Conseils relie le Canada, le Sénégal et le Maroc pour accompagner les projets de stratégie, finance, gestion et développement."
     ),
   }),
   component: PresencePage,
@@ -35,13 +35,13 @@ function PresencePage() {
       <HeroSection
         eyebrow="Présence"
         title="Canada, Sénégal, Maroc: trois ancrages pour une même exigence."
-        description="Cogesto relie les investisseurs, les partenaires locaux et les marchés régionaux dans une organisation pensée pour les projets transfrontaliers."
+        description="Cogesto relie les dirigeants, entrepreneurs, investisseurs, partenaires locaux et marchés régionaux dans une organisation pensée pour les projets structurants."
         image={images.dakar}
         compact
         stats={[
-          { value: "CA", label: "relation diaspora" },
-          { value: "SN", label: "terrain et conformité" },
-          { value: "MA", label: "passerelles régionales" },
+          { value: "CA", label: "stratégie et finance" },
+          { value: "SN", label: "gestion et conformité" },
+          { value: "MA", label: "développement régional" },
         ]}
       />
 
@@ -63,12 +63,12 @@ function PresencePage() {
               Implantations
             </p>
             <h2 className="mt-5 text-4xl leading-[1.06] font-semibold tracking-[-0.01em] text-balance md:text-5xl">
-              Une présence pensée pour réduire la distance entre décision et
+              Une présence pensée pour relier stratégie, financement et
               exécution.
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/72">
-              Chaque bureau a un rôle: écouter l'investisseur, coordonner le
-              terrain, ouvrir les relais utiles.
+              Chaque ancrage a un rôle: écouter le décideur, préparer les
+              dossiers, coordonner le terrain et ouvrir les relais utiles.
             </p>
           </div>
           <div data-stagger className="mt-16 grid gap-6 md:grid-cols-3">
@@ -87,19 +87,19 @@ function PresencePage() {
         stats={[
           {
             value: "Canada",
-            label: "écoute et financement",
+            label: "stratégie et financement",
             detail:
-              "Comprendre les investisseurs établis à l'étranger et préparer les dossiers.",
+              "Comprendre les objectifs, structurer les priorités et préparer les dossiers financiers.",
           },
           {
             value: "Sénégal",
-            label: "exécution locale",
+            label: "gestion et exécution",
             detail:
-              "Suivre les démarches, les partenaires et les réalités administratives.",
+              "Suivre les démarches, les partenaires et les réalités administratives, fiscales et opérationnelles.",
           },
           {
             value: "Maroc",
-            label: "croissance régionale",
+            label: "développement régional",
             detail:
               "Ouvrir des perspectives d'affaires et d'expansion transfrontalière.",
           },
@@ -123,7 +123,7 @@ function PresencePage() {
           <SectionHeader
             eyebrow="Force du réseau"
             title="Un réseau utile, cadré par une méthode."
-            description="Cogesto ne remplace pas la décision de l'investisseur. Nous lui donnons les conditions pour décider mieux."
+            description="Cogesto ne remplace pas la décision du dirigeant ou de l'investisseur. Nous lui donnons les conditions pour décider mieux."
             align="center"
           />
           <div className="mt-12">

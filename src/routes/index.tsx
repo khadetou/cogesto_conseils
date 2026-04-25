@@ -19,8 +19,8 @@ import { officeItems, services, strengths } from "@/lib/site"
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta(
-      "COGESTO CONSEILS | Le pont entre vous et le Sénégal",
-      "Conseil transnational pour la diaspora, les investisseurs et les entreprises qui veulent investir, créer et grandir au Sénégal."
+      "COGESTO CONSEILS | Conseil stratégique et financier",
+      "Cabinet de conseil en stratégie, finance, structuration, gestion et développement pour entreprises, entrepreneurs, investisseurs et organisations."
     ),
   }),
   component: App,
@@ -30,14 +30,14 @@ function App() {
   return (
     <PageLayout>
       <HeroSection
-        eyebrow="Conseil transnational Canada · Sénégal · Maroc"
-        title="Le pont entre vous et le Sénégal"
-        subtitle="Investir au Sénégal en toute sérénité"
-        description="Cogesto Conseils accompagne la diaspora, les entrepreneurs à l'international et les investisseurs étrangers dans la création, le financement, la structuration fiscale et le développement de projets solides au Sénégal."
+        eyebrow="Conseil stratégique & financier"
+        title="Structurer, financer et développer vos projets avec méthode"
+        subtitle="Des décisions claires pour avancer avec confiance"
+        description="Cogesto Conseils accompagne les entrepreneurs, entreprises, investisseurs, organisations et membres de la diaspora dans la structuration, le financement, la gestion et le pilotage de leurs projets, avec une présence au Canada, au Sénégal et au Maroc."
         image={images.advisory}
         stats={[
           { value: "3", label: "bureaux connectés" },
-          { value: "360°", label: "vision stratégique" },
+          { value: "360°", label: "lecture projet" },
           { value: "CA · SN · MA", label: "présence transnationale" },
         ]}
       />
@@ -56,9 +56,9 @@ function App() {
                 Un système de conseil pour décider, financer et exécuter.
               </h2>
               <p className="mt-5 text-lg leading-8 text-white/72">
-                Cogesto relie les exigences de l'investisseur à distance aux
-                réalités du terrain sénégalais: conformité, financement,
-                partenaires, fiscalité et pilotage.
+                Cogesto combine stratégie, finance, conformité et pilotage pour
+                aider les porteurs de projets à passer d'une ambition à une
+                trajectoire claire, documentée et exécutable.
               </p>
             </div>
             <div data-stagger className="border-t border-white/14">
@@ -111,29 +111,30 @@ function App() {
         <div className="mx-auto grid max-w-7xl gap-16 px-4 sm:px-6 lg:grid-cols-[1.08fr_0.92fr] lg:items-end lg:px-8">
           <div data-reveal className="max-w-4xl">
             <p className="mb-4 text-xs font-semibold tracking-[0.22em] text-white/58 uppercase">
-              Approche diaspora
+              Programme Diaspora & Investissement
             </p>
             <h2 className="text-4xl leading-[1.03] font-semibold tracking-[-0.01em] text-balance md:text-6xl">
-              La distance ne doit pas fragiliser la confiance.
+              Un accompagnement dédié aux projets portés à distance.
             </h2>
             <p className="mt-7 max-w-2xl text-xl leading-9 text-white/76">
-              Entre l'envie de construire au pays et la réalité des démarches,
-              il y a souvent un espace d'incertitude. Cogesto intervient dans
-              cet espace: pour vérifier, cadrer, documenter et suivre.
+              Au sein de son offre de conseil, Cogesto a développé une expertise
+              spécifique pour les membres de la diaspora sénégalaise qui veulent
+              investir, entreprendre ou suivre un projet au Sénégal avec
+              méthode.
             </p>
           </div>
           <div data-stagger className="grid gap-4">
             {[
               {
-                label: "Doute",
+                label: "Vérifier",
                 text: "Qui vérifie les informations avant que l'argent parte ?",
               },
               {
-                label: "Distance",
+                label: "Coordonner",
                 text: "Qui suit les partenaires quand vous êtes à Montréal, Paris ou Casablanca ?",
               },
               {
-                label: "Décision",
+                label: "Documenter",
                 text: "Qui transforme une promesse locale en décision documentée ?",
               },
             ].map((point) => (
@@ -189,7 +190,7 @@ function App() {
               Pourquoi Cogesto
             </p>
             <h2 className="mt-5 text-4xl leading-[1.06] font-semibold tracking-[-0.01em] text-balance text-[var(--cogesto-blue)] md:text-5xl">
-              Une expertise pensée pour les projets transfrontaliers exigeants.
+              Une expertise pensée pour les décisions exigeantes.
             </h2>
             <div className="mt-10 border-t border-[var(--cogesto-blue)]/10">
               {strengths.map((strength) => (
@@ -232,8 +233,9 @@ function App() {
               Une organisation reliée entre le Canada, le Sénégal et le Maroc.
             </h2>
             <p className="mt-5 text-lg leading-8 text-white/72">
-              Trois points d'ancrage pour servir les investisseurs, coordonner
-              le terrain et ouvrir des passerelles régionales.
+              Trois points d'ancrage pour conseiller les entreprises, préparer
+              les financements, coordonner le terrain et ouvrir des passerelles
+              régionales.
             </p>
           </div>
           <div

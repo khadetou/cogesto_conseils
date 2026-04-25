@@ -14,9 +14,9 @@ export function Diaspora() {
       <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-8">
         <div>
           <SectionHeader
-            eyebrow="Diaspora"
-            title="Investir à distance ne devrait pas signifier avancer dans l’incertitude."
-            description="Cogesto comprend le rythme, les contraintes et les ambitions des porteurs de projets installés hors du Sénégal."
+            eyebrow="Programme Diaspora & Investissement"
+            title="Un accompagnement dédié aux projets portés à distance."
+            description="Cogesto comprend le rythme, les contraintes et les ambitions des membres de la diaspora sénégalaise qui veulent investir, entreprendre ou suivre un projet au Sénégal."
           />
         </div>
 
@@ -44,7 +44,7 @@ export function Diaspora() {
           >
             <Icon icon={mapPointIcon} className="size-9" />
             <h3 className="mt-5 text-2xl font-semibold">
-              Cogesto agit comme relais stratégique, terrain et conformité.
+              Cogesto agit comme relais stratégique, financier et terrain.
             </h3>
             <p className="mt-4 leading-7 text-white/72">
               Nous relions la vision portée depuis l’étranger à une exécution

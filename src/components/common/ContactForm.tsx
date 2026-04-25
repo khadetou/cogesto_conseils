@@ -51,10 +51,18 @@ export function ContactForm() {
               <SelectValue placeholder="Choisir un service" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="conseil">Conseil & Accompagnement</SelectItem>
-              <SelectItem value="financement">Financement</SelectItem>
-              <SelectItem value="gestion">Gestion & Fiscalité</SelectItem>
-              <SelectItem value="strategie">Stratégie</SelectItem>
+              <SelectItem value="conseil">
+                Conseil stratégique & accompagnement
+              </SelectItem>
+              <SelectItem value="financement">
+                Structuration financière & financement
+              </SelectItem>
+              <SelectItem value="gestion">
+                Gestion, fiscalité & conformité
+              </SelectItem>
+              <SelectItem value="strategie">
+                Organisation, pilotage & développement
+              </SelectItem>
             </SelectContent>
           </Select>
         </label>

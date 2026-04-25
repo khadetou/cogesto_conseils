@@ -23,7 +23,7 @@ export function ControlStatement() {
             Point de contrôle
           </p>
           <h2 className="mt-6 max-w-5xl text-5xl leading-[0.98] font-semibold tracking-[-0.02em] text-balance md:text-7xl">
-            Investir à distance. Garder le contrôle.
+            Décider avec méthode. Exécuter avec clarté.
           </h2>
         </div>
 
@@ -32,12 +32,12 @@ export function ControlStatement() {
           className="border-t border-white/22 pt-8 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-10"
         >
           <p className="max-w-md text-xl leading-9 text-white/78">
-            Voir clair avant d'engager. Vérifier avant de financer. Suivre après
-            la décision.
+            Clarifier avant d'engager. Structurer avant de financer. Piloter
+            après la décision.
           </p>
           <div className="mt-9">
-            <CTAButton href="/diaspora" variant="light">
-              Voir l'approche diaspora
+            <CTAButton href="/processus" variant="light">
+              Voir notre méthode
             </CTAButton>
           </div>
         </div>

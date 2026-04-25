@@ -9,7 +9,7 @@ const offices = [
   {
     country: "Canada",
     icon: canadaFlag,
-    role: "Relation diaspora, cadrage stratégique et accès aux réseaux de financement.",
+    role: "Stratégie, relation investisseurs, cadrage financier et préparation des dossiers.",
   },
   {
     country: "Sénégal",
@@ -29,8 +29,8 @@ export function Offices() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Présence"
-          title="Trois bureaux pour relier l’ambition internationale à l’exécution locale."
-          description="La force de Cogesto est transnationale: comprendre les attentes de l’investisseur à l’étranger et les réalités du marché sénégalais."
+          title="Trois ancrages pour relier stratégie, finance et exécution."
+          description="La force de Cogesto est transnationale: comprendre les attentes des décideurs et les réalités des marchés entre le Canada, le Sénégal et le Maroc."
         />
 
         <div data-stagger className="mt-12 grid gap-5 md:grid-cols-3">

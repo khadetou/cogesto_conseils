@@ -11,7 +11,7 @@ export const Route = createFileRoute("/processus")({
   head: () => ({
     meta: pageMeta(
       "Processus | COGESTO CONSEILS",
-      "La méthode Cogesto: consultation, diagnostic, structuration, exécution et suivi pour sécuriser les projets au Sénégal."
+      "La méthode Cogesto: consultation, diagnostic, structuration, exécution et suivi pour sécuriser les décisions stratégiques et financières."
     ),
   }),
   component: ProcessPage,
@@ -23,7 +23,7 @@ function ProcessPage() {
       <HeroSection
         eyebrow="Processus"
         title="Une méthode exigeante pour avancer avec ordre et confiance."
-        description="La qualité d'un projet transfrontalier dépend de la séquence des décisions. Cogesto structure cette séquence avec des étapes, des livrables et un suivi clair."
+        description="La qualité d'un projet dépend de la séquence des décisions. Cogesto structure cette séquence avec des étapes, des livrables et un suivi clair."
         image={images.architecture}
         compact
         stats={[
@@ -38,7 +38,7 @@ function ProcessPage() {
       <ImageTextSection
         eyebrow="Pilotage"
         title="Le processus n'est pas une formalité. C'est une protection."
-        description="Les projets à distance échouent quand les décisions ne sont pas hiérarchisées. Notre méthode aide à comprendre quoi traiter maintenant, quoi différer et quoi refuser."
+        description="Les projets se fragilisent quand les décisions ne sont pas hiérarchisées. Notre méthode aide à comprendre quoi traiter maintenant, quoi différer et quoi refuser."
         image={images.boardroom}
         reverse
         points={[

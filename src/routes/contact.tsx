@@ -15,7 +15,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: pageMeta(
       "Contact | COGESTO CONSEILS",
-      "Demandez une consultation avec Cogesto Conseils pour cadrer votre projet d'investissement au Sénégal."
+      "Demandez une consultation avec Cogesto Conseils pour cadrer votre projet de stratégie, financement, gestion ou développement."
     ),
   }),
   component: ContactPage,
@@ -27,7 +27,7 @@ function ContactPage() {
       <HeroSection
         eyebrow="Contact"
         title="Parlez-nous de votre projet."
-        description="Une première consultation permet de comprendre votre situation, vos délais, vos besoins de financement et les points de conformité à anticiper."
+        description="Une première consultation permet de comprendre votre situation, vos objectifs, vos délais, vos besoins de financement, vos enjeux de gestion et les points de conformité à anticiper."
         image={images.handshake}
         compact
         primaryCta="Remplir le formulaire"

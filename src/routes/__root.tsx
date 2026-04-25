@@ -13,12 +13,12 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "COGESTO CONSEILS | Le pont entre vous et le Sénégal",
+        title: "COGESTO CONSEILS | Conseil stratégique et financier",
       },
       {
         name: "description",
         content:
-          "Cogesto Conseils accompagne la diaspora, les investisseurs et les entrepreneurs dans leurs projets d'investissement, de financement et de croissance au Sénégal.",
+          "Cogesto Conseils accompagne les entreprises, entrepreneurs, investisseurs et organisations dans la stratégie, le financement, la structuration, la gestion et le développement de leurs projets.",
       },
     ],
     links: [

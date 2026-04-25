@@ -14,7 +14,7 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: pageMeta(
       "Services | COGESTO CONSEILS",
-      "Conseil, financement, gestion fiscale et stratégie de croissance pour investir et entreprendre au Sénégal."
+      "Conseil stratégique, structuration financière, gestion, fiscalité, conformité et développement pour entreprises, investisseurs et organisations."
     ),
   }),
   component: ServicesPage,
@@ -26,7 +26,7 @@ function ServicesPage() {
       <HeroSection
         eyebrow="Services"
         title="Des expertises intégrées pour sécuriser chaque étape de votre projet."
-        description="Cogesto intervient là où les décisions deviennent sensibles: structuration, financement, conformité, partenaires et croissance."
+        description="Cogesto intervient là où les décisions deviennent sensibles: stratégie, structuration financière, conformité, organisation, partenaires et développement."
         image={images.office}
         compact
         secondaryHref="/processus"
@@ -42,7 +42,7 @@ function ServicesPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader
             eyebrow="Expertises"
-            title="Un accompagnement conçu pour les projets sérieux, pas pour les démarches dispersées."
+            title="Un accompagnement conçu pour les projets structurants, pas pour les démarches dispersées."
             description="Chaque service peut être mobilisé seul, mais la force de Cogesto réside dans la lecture globale du projet."
           />
           <div data-stagger className="mt-12 grid gap-5 md:grid-cols-2">
@@ -56,11 +56,11 @@ function ServicesPage() {
       <ImageTextSection
         eyebrow="Qualité d'exécution"
         title="La bonne expertise au bon moment."
-        description="Un projet d'investissement n'a pas besoin de tout faire en même temps. Il doit prendre les bonnes décisions dans le bon ordre, avec les bons documents."
+        description="Un projet sérieux n'a pas besoin de tout traiter en même temps. Il doit prendre les bonnes décisions dans le bon ordre, avec les bons documents et les bons indicateurs."
         image={images.advisory}
         reverse
         points={[
-          "Avant financement: clarifier la faisabilité et la crédibilité du dossier.",
+          "Avant financement: clarifier la faisabilité, les chiffres et la crédibilité du dossier.",
           "Avant exécution: sécuriser les responsabilités, les partenaires et les flux.",
           "Pendant la croissance: mesurer, ajuster et préserver la conformité.",
         ]}

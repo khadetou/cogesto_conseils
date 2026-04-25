@@ -39,12 +39,12 @@ export const navItems: Array<NavItem> = [
 
 export const services: Array<ServiceItem> = [
   {
-    title: "Conseil & Accompagnement",
+    title: "Conseil stratégique & accompagnement",
     icon: advisoryIcon,
     description:
-      "Cadrer l'ambition, clarifier les priorités et sécuriser chaque décision structurante.",
+      "Cadrer l'ambition, clarifier les priorités et organiser les décisions structurantes.",
     detail:
-      "Nous transformons une intention d'investissement en trajectoire opérationnelle: objectifs, risques, partenaires, gouvernance et calendrier.",
+      "Nous aidons les dirigeants, entrepreneurs, investisseurs et organisations à transformer une ambition en trajectoire opérationnelle: objectifs, risques, gouvernance, partenaires et calendrier.",
     points: [
       "Cadrage stratégique du projet",
       "Qualification des opportunités",
@@ -52,12 +52,12 @@ export const services: Array<ServiceItem> = [
     ],
   },
   {
-    title: "Financement",
+    title: "Structuration financière & financement",
     icon: walletIcon,
     description:
       "Préparer des dossiers crédibles et construire une stratégie de financement lisible.",
     detail:
-      "Cogesto aide les porteurs de projets à parler le langage des banques, investisseurs et institutions de financement.",
+      "Cogesto accompagne la structuration financière, la préparation des dossiers et le dialogue avec les banques, investisseurs et institutions de financement.",
     points: [
       "Montage du dossier financier",
       "Lecture des risques et garanties",
@@ -65,7 +65,7 @@ export const services: Array<ServiceItem> = [
     ],
   },
   {
-    title: "Gestion & Fiscalité",
+    title: "Gestion, fiscalité & conformité",
     icon: documentIcon,
     description:
       "Organiser la conformité, les flux et les responsabilités pour avancer sans fragilité.",
@@ -78,12 +78,12 @@ export const services: Array<ServiceItem> = [
     ],
   },
   {
-    title: "Stratégie de croissance",
+    title: "Organisation, pilotage & développement",
     icon: growthIcon,
     description:
-      "Passer d'une opportunité à un actif durable, mesurable et prêt à grandir.",
+      "Installer une organisation claire pour piloter la performance et soutenir le développement.",
     detail:
-      "Nous travaillons le positionnement, l'entrée marché, les modèles de revenus et les arbitrages de développement.",
+      "Nous travaillons le positionnement, les modèles économiques, les indicateurs de pilotage et les arbitrages de développement.",
     points: [
       "Étude d'opportunité",
       "Feuille de route commerciale",
@@ -97,7 +97,7 @@ export const strengths: Array<FeatureItem> = [
     title: "Lecture transnationale",
     icon: globalIcon,
     description:
-      "Une compréhension simultanée des attentes de la diaspora et des réalités d'exécution au Sénégal.",
+      "Une compréhension des attentes des décideurs, des marchés et des réalités d'exécution entre le Canada, le Sénégal, le Maroc et l'Afrique de l'Ouest.",
   },
   {
     title: "Réseau local qualifié",
@@ -106,7 +106,7 @@ export const strengths: Array<FeatureItem> = [
       "Des relais pour vérifier les partenaires, fluidifier les démarches et limiter les angles morts.",
   },
   {
-    title: "Conformité intégrée",
+    title: "Rigueur et conformité",
     icon: complianceIcon,
     description:
       "Une attention constante à la fiscalité, aux documents, aux responsabilités et à la traçabilité.",
@@ -122,20 +122,20 @@ export const strengths: Array<FeatureItem> = [
 export const officeItems = [
   {
     city: "Canada",
-    role: "Relation diaspora, stratégie d'investissement et préparation des dossiers de financement.",
-    focus: "Diaspora et financement",
+    role: "Conseil stratégique, relation investisseurs, entrepreneurs et préparation des dossiers de financement.",
+    focus: "Stratégie et financement",
     icon: bankIcon,
   },
   {
     city: "Sénégal",
-    role: "Exécution locale, conformité, partenaires terrain et suivi des opérations.",
-    focus: "Terrain et conformité",
+    role: "Conformité, partenaires terrain, suivi des opérations et accompagnement des projets locaux.",
+    focus: "Gestion et conformité",
     icon: buildingIcon,
   },
   {
     city: "Maroc",
-    role: "Passerelles régionales, développement d'affaires et structuration de croissance.",
-    focus: "Expansion régionale",
+    role: "Passerelles régionales, développement d'affaires et structuration de croissance en Afrique de l'Ouest.",
+    focus: "Développement régional",
     icon: shieldIcon,
   },
 ]
@@ -177,7 +177,7 @@ export const faqs = [
   {
     question: "Travaillez-vous uniquement avec la diaspora sénégalaise ?",
     answer:
-      "Non. La diaspora est un public central, mais Cogesto accompagne aussi les investisseurs étrangers et les entreprises qui veulent s'implanter ou accélérer au Sénégal.",
+      "Non. Cogesto est d'abord un cabinet de conseil en stratégie et finance. La diaspora sénégalaise bénéficie d'un programme dédié, mais nous accompagnons aussi entreprises, entrepreneurs, investisseurs et organisations.",
   },
   {
     question: "Pouvez-vous intervenir sur la recherche de financement ?",

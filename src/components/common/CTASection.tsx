@@ -10,7 +10,7 @@ type CTASectionProps = {
 }
 
 export function CTASection({
-  title = "Construisons une trajectoire claire pour votre projet au Sénégal.",
+  title = "Construisons une trajectoire claire pour votre projet.",
   description = "Un échange avec Cogesto permet de clarifier les risques, les priorités et les prochaines décisions à prendre.",
   secondaryHref = "/services",
   secondaryLabel = "Explorer les services",

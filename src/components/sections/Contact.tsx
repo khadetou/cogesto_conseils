@@ -25,8 +25,8 @@ export function Contact() {
         <div>
           <SectionHeader
             eyebrow="Premier échange"
-            title="Parlez-nous de votre projet au Sénégal."
-            description="Un échange structuré permet de comprendre votre situation, vos délais, vos besoins de financement et les points de conformité à anticiper."
+            title="Parlez-nous de votre projet."
+            description="Un échange structuré permet de comprendre votre situation, vos objectifs, vos délais, vos besoins de financement et les points de conformité à anticiper."
             className="[&_h2]:text-white [&_p:last-child]:text-white/72"
           />
           <div data-reveal className="mt-10 grid gap-4 text-sm text-white/76">
@@ -83,11 +83,17 @@ export function Contact() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="conseil">
-                    Conseil & Accompagnement
+                    Conseil stratégique & accompagnement
                   </SelectItem>
-                  <SelectItem value="financement">Financement</SelectItem>
-                  <SelectItem value="gestion">Gestion & Fiscalité</SelectItem>
-                  <SelectItem value="strategie">Stratégie</SelectItem>
+                  <SelectItem value="financement">
+                    Structuration financière & financement
+                  </SelectItem>
+                  <SelectItem value="gestion">
+                    Gestion, fiscalité & conformité
+                  </SelectItem>
+                  <SelectItem value="strategie">
+                    Organisation, pilotage & développement
+                  </SelectItem>
                 </SelectContent>
               </Select>
             </label>
